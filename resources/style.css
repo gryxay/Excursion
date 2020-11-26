@@ -1,16 +1,28 @@
-h1, h2, h3 {
+body {
+    background-color: black;
+    text-align: center;
+}
+
+/* UNIVERSAL TEXT STYLES */
+
+h1, h2, h3, h4, p, span {
     font-family: Verdana, sans-serif;
     color: white;
 }
 
 h1 {
     font-weight: normal;
-    font-size: 50px;
+    font-size: 3.125em;
     
 }
 
-body {
-    background-color: black;
+h2 {
+    font-weight: 300;
+    font-size: 2.625em;
+}
+
+p {
+    font-size: 1.3125em;
 }
 
 /* HEADER */
@@ -19,5 +31,38 @@ header {
     display: block;
     width: 100%;
     margin: auto;
-    text-align: center;
+}
+
+/* DOWNLOAD */
+
+.download {
+    font-size: 1em;
+}
+
+.download h4 {
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+/* DESCRIPTION */
+
+.description p {
+    color: gray;
+}
+
+/* SUPPORTING SECTION */
+
+.supporting-section img {
+    padding-top: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: right;
+    padding-top: 5px;
+}
+
+footer span {
+    color: gray;
 }
